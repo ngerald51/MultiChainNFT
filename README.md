@@ -18,7 +18,7 @@ Go to `src/client.ts` file and replace the placeholder `clientId` with your clie
 ```ts
 const clientId = "......";
 ```
-##Main codebase
+## Main codebase
 1) components/ NFTClaimer.tsx
 2) layout.tsx
 3) page.tsx
