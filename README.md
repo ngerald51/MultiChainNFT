@@ -36,8 +36,9 @@ const clientId = "......";
 ### Install dependencies
 
 ```bash
-yarn
+npx thirdweb create --app
 ```
+Select Next.JS framework
 
 ### Start development server
 
