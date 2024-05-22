@@ -7,7 +7,7 @@ import { useActiveAccount } from "thirdweb/react";
 import { baseSepolia } from "thirdweb/chains";
 
 'Main Smart Contract logic component 
-import NFTClaimer from "../../components/NFTClaimer";
+import NFTClaimer from "NFTClaimer";
 
 export default function Home() {
 const account = useActiveAccount();
