@@ -18,6 +18,9 @@ Go to `src/client.ts` file and replace the placeholder `clientId` with your clie
 ```ts
 const clientId = "......";
 ```
+## Setup NFT SmartContract- EditionDrop
+Please head to [link](https://portal.thirdweb.com) and create a edition drop contract for both Base Sepolia and Zksync Sepolia
+
 ## Main codebase
 1) NFTClaimer.tsx
 2) layout.tsx
