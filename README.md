@@ -4,17 +4,18 @@ This tutorial focuses on helping developers harness the power of Thirdweb's acco
 
 This tutorial will cover how to set up smart wallets from thirdweb and enable multi-chain support using account abstraction.
 
-Deploying NFT smart contracts:
+1) Deploying NFT smart contracts:
 Deploy an ERC1155 NFT smart contract on different chains (e.g., Base Sepolia and Zksync Sepolia testnet)
-Name and add images to the NFTs
-Prep NFTs by minting and setting up claim conditions
-Building a front-end application using thirdweb Connect SDK:
-Create a new Next.js project with thirdweb Connect SDK
-Set up the project with a thirdweb API key or client ID
-Connect to the application with a smart wallet
-Claim different NFTs from different chains to the same wallet address
-Deploying smart contracts with deterministic addresses across multiple chains:
-Ensure contracts share the same contract address no matter what chain they are on
+
+2) Name and add images to the NFTs, Prep NFTs by minting and setting up claim conditions
+
+3) Building a front-end application using thirdweb Connect SDK: Create a new Next.js project with thirdweb Connect SDK
+
+4) Set up the project with a thirdweb API key or client ID
+
+5) Connect to the application with a smart wallet
+
+6) Claim different NFTs from different chains to the same wallet address and ensure contracts share the same contract address no matter what chain they are on
 
 Seamless cross-chain experiences: Users can switch between different chains without having to worry about managing multiple wallets or addresses.
 Support for tokens/NFTs on different chains: Developers can enable users to interact with tokens and NFTs on multiple networks, expanding the functionality and reach of their applications.
@@ -32,7 +33,7 @@ Go to `src/client.ts` file and replace the placeholder `clientId` with your clie
 ```ts
 const clientId = "......";
 ```
-## Setup NFT SmartContract- EditionDrop
+## Setup NFT SmartContract- EditionDrop(Prep NFTs by minting and setting up claim conditions)
 Please head to [link](https://portal.thirdweb.com) and create a edition drop contract for both Base Sepolia and Zksync Sepolia
 
 ## Main codebase
