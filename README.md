@@ -23,6 +23,13 @@ const clientId = "......";
 2) layout.tsx
 3) page.tsx
 
+## Kay concepts & Points
+
+1) Deploying two ERC-1155 NFT contracts on Sepolia and Base Sepolia testnets using Thirdweb dashboard.
+2) Setting up a Next.js project with Thirdweb's Connect SDK to build a frontend application.
+3) Create components to display and claim the deployed NFTs from the respective chains.
+4) Enabling account abstraction and multi-chain support using Thirdweb's Connect button, which allows users to have the same wallet address across multiple EVM chains using deterministic deployment.
+5) Demonstrate the process of connecting a smart wallet, switching between chains, and claiming NFTs on different chains to the same wallet address. And enjoy the benefits of multi-chain account abstraction wallets, such as enabling seamless cross-chain experiences, supporting tokens/NFTs on different chains, and creating unified in-app wallets for users.
 
 ## Usage
 
