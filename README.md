@@ -37,9 +37,9 @@ const clientId = "......";
 Please head to [link](https://portal.thirdweb.com) and create a edition drop contract for both Base Sepolia and Zksync Sepolia
 
 ## Main codebase
-1) NFTClaimer.tsx
+1) NFTClaimer.tsx --NFT Smart Contract logic
 2) layout.tsx
-3) page.tsx
+3) page.tsx -- FrontEnd App overall look & feel
 
 ## Kay concepts & Points
 
