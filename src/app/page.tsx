@@ -32,7 +32,7 @@ const zksyncContract = getContract({
         <br />
     Sponsored Transactions
         </h1>
-
+  'Connect Wallet button and two NFTs on the various network. where we actually connects to a smart wallet or account abstraction wallet. 
 <ConnectButton
   client={client}
   accountAbstract ={{
