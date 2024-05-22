@@ -1,4 +1,6 @@
-
+'Main logic for NFT interaction and crosschain logic and deploying two ERC-1155 NFT contracts on Sepolia Base & Sepolia Zksync
+'Demonstrating the process of connecting a smart wallet, switching between chains, and claiming NFTs on different chains to the same wallet address.
+	
 import { client } from "@/app/client";
 import { ThirdwebContract } from "thirdweb";
 import { balanceOf, getNFT, claimTo } from "thirdweb/extensions/erc1155";
